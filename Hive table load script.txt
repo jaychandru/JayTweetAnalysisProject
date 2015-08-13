@@ -1,0 +1,3 @@
+LOAD DATA INPATH '/user/Jay/twitter/2015/03/28/21'
+INTO TABLE `default.db_tweets`
+PARTITION (datehour='2015032821');
